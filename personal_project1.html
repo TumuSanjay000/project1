@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HOME PAGE</title>
+        <link rel="icon" href="webdev.png">
+        <style>
+            header{
+                background-color: rgb(41, 45, 50);
+                text-align: center;
+                padding: 7px;
+                color: white;
+            }
+            nav{
+                background-color: darkgray;
+                padding: 7px;
+            }
+            nav a{
+                text-decoration: none;
+                color: black;
+            }
+            nav a.hm{
+                float: left;
+            }
+            nav img.hm{
+                float: left;
+            }
+            nav a.lgn{
+                float: right;
+            }
+            nav ul{
+                display: inline;
+                list-style-type: none;
+                padding: 0;
+            }
+            nav ul li{
+                display: inline;
+                margin-right: 15px;
+            }
+            .firstpart{
+                background-color: lightblue;
+            }
+            .firstpart #z #z1{
+                display: inline-block;
+            }
+            .section {
+			    height: 400px;
+			    display: flex;
+			    align-items: center;
+			    justify-content: center;
+			    max-width: 90%;
+			    margin: auto;
+		    }
+            .text-big{
+                font-family: 'Piazzolla',serif;
+                text-align: center;
+                font-weight: bold;
+                font-size: 35px;
+            }
+            .text-small{
+                font-size: 18px;
+            }
+            footer{
+                width: 99%;
+                bottom: 0px;
+                background-color: rgb(29, 28, 28);
+                color: white;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>FULL STACK WEB DEVELOPMENT</h1>
+            <nav >
+                <img class="hm" src="homelogo-removebg-preview.png" alt="hmlogo" width="25px" height="20px" >
+                <a class="hm" href="HOME">HOME</a>
+                <ul>
+                    <li><a href="#HTML">HTML</a></li>
+                    <li><a href="#CSS">CSS</a></li>
+                    <li><a href="#JAVA SCRIPT">JAVA SCRIPT</a></li>
+                    <li><a class="lgn" href="LOGIN">LOGIN</a></li>
+                </ul>
+            </nav>
+        </header>
+        </section>
+        <section class="section">
+            <div class="paras">
+                <h1 class="sectionTag text-big">HTML</h1>
+                <p class="sectionSubTag text-small">
+                    The HyperText Markup Language or HTML is the 
+                    standard markup language for documents designed 
+                    to be displayed in a web browser. It defines 
+                    the content and structure of web content. 
+                    It is often assisted by technologies such 
+                    as Cascading Style Sheets (CSS) and scripting 
+                    languages such as JavaScript.
+                </p>
+            </div>
+            <div class="thumbnail">
+                <img src= "htmllogo-removebg-preview.png" alt="htmlimage" width="300px" height="300px">
+            </div>
+        </section>
+        <section class="section">
+            <div class="thumbnail">
+                <img src= "css_logo-removebg-preview.png" alt="cssimage" width="300px" height="300px">
+            </div>
+            <div class="paras">
+                <h1 class="sectionTag text-big">CSS</h1>
+                <p class="sectionSubTag text-small">
+                    Cascading Style Sheets (CSS) is a style sheet 
+                    language used for specifying the presentation 
+                    and styling of a document written in a markup 
+                    language such as HTML or XML (including XML 
+                    dialects such as SVG, MathML or XHTML).
+                    CSS is a cornerstone technology of the World 
+                    Wide Web, alongside HTML and JavaScript.
+                </p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="paras">
+                <h1 class="sectionTag text-big">JAVA</h1>
+                <p class="sectionSubTag text-small">
+                    Java has been one of the most popular
+                    programming language for many years.
+                    Java is Object Oriented. However it is
+                    not considered as pure object oriented
+                    as it provides support for primitive
+                    data types (like int, char, etc) The
+                    Java codes are first compiled into byte
+                    code (machine independent code). Then
+                    the byte code is run on Java Virtual
+                    Machine (JVM) regardless of the
+                    underlying architecture.
+                </p>
+            </div>
+            <div class="thumbnail">
+                <img src= "JavaScript-Logo-2048x1280-removebg-preview.png" alt="jsimage" width="300px" height="300px">
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Your Website. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
